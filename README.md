@@ -1,7 +1,6 @@
 # **SheriaLens: Clarity in a world of Fine Print**
 ___________________________________________
 
-
 ## **Overview**
 The law is the code that governs our lives, yet it is written in a language few can compile. For decades, access to legal understanding has been gated behind expensive billable hours and impenetrable jargon. The gap between the "letter of the law" and the people it serves has never been wider. SheriaLens exists to bridge that gap.
 
