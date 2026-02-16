@@ -208,5 +208,4 @@ __marimo__/
 
 
 # Excluding the Datasets folder which contains the raw scraped data
-Datasets/Raw_data/county_laws/
-Datasets/Raw_data/treaties/
+Datasets/Raw_data/case_laws/
