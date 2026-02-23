@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Configuring the scraper
-START_URL = "https://new.kenyalaw.org/judgments/KEELRC/2025/1/"
+START_URL = "https://new.kenyalaw.org/judgments/KEELRC/2025/6/"
 BASE_URL = "https://new.kenyalaw.org"
 DELAY_SECONDS = 6  # Conforming with robots.txt
 HEADERS = {
@@ -21,7 +21,7 @@ HEADERS = {
 }
 
 # Directory for each month's case laws
-DOWNLOAD_FOLDER = "Datasets/Raw_data/case_laws/KEELRC/2025/January"
+DOWNLOAD_FOLDER = "Datasets/Raw_data/case_laws/KEELRC/2025/June"
 DOWNLOAD_DELAY = 3
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
@@ -122,7 +122,7 @@ def download_cases(all_links):
             download_url = base_link.rstrip('/')  + "/source"
             parsed_url = urlparse(download_url)
             path_parts = parsed_url.path.split('/') 
-            filename_part = "_".join([p for p in path_parts if p.isdigit() or 'keelc' in p.lower()]) 
+            filename_part = "_".join([p for p in path_parts if p.isdigit() or 'keelrc' in p.lower()]) 
             
             # Incase URL structure is weird
             if not filename_part:
