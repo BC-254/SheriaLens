@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-
 # Configuring the Scraper with headers and delay to respect eKLR's robots.txt guidelines
 BASE_URL = "http://kenyalaw.org/kl/"
 HEADERS = {
