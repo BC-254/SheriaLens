@@ -210,6 +210,7 @@ __marimo__/
 # Excluding the Datasets folder which contains the raw scraped data
 Datasets/Raw_data/case_laws/
 Datasets/Processed_data/
+Datasets/Raw_data/
 
 # Excluding the database
 sherialens_db/
