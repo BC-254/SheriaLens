@@ -211,6 +211,7 @@ __marimo__/
 Datasets/Raw_data/case_laws/
 Datasets/Processed_data/
 Datasets/Raw_data/
+documents_folder/
 
 # Excluding the database
 sherialens_db/
