@@ -212,6 +212,8 @@ Datasets/Raw_data/case_laws/
 Datasets/Processed_data/
 Datasets/Raw_data/
 documents_folder/
+src/sherialens/documents_folder/
+src/Datasets/
 
 # Excluding the database
 sherialens_db/
