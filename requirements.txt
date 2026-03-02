@@ -3,4 +3,3 @@ chromadb
 sentence-transformers
 google-generativeai
 python-dotenv
-python 3.10
