@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Configuring the scraper
-START_URL = "https://new.kenyalaw.org/judgments/KEELC/2025/4/"
+START_URL = "https://new.kenyalaw.org/judgments/KEELC/2025/3/"
 BASE_URL = "https://new.kenyalaw.org"
 DELAY_SECONDS = 6  # Conforming with robots.txt
 HEADERS = {
@@ -21,7 +21,7 @@ HEADERS = {
 }
 
 # Directory for each month's case laws
-DOWNLOAD_FOLDER = "Datasets/Raw_data/case_laws/KEELC/2025/April"
+DOWNLOAD_FOLDER = "Datasets/Raw_data/case_laws/KEELC/2025/February"
 DOWNLOAD_DELAY = 3
 os.makedirs(DOWNLOAD_FOLDER, exist_ok=True)
 
