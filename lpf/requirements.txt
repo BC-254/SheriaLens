@@ -3,3 +3,4 @@ sentence-transformers
 numpy
 google-generativeai
 scikit-learn
+openai
