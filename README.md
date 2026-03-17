@@ -2,7 +2,7 @@
 
 Glance of the chatbot:
               [Sherialens](https://huggingface.co/spaces/BC-254/SheriaLens2)
-**Note:** Do to financial constraints we are currently using the gemini free api hence we have api rate limits. The rate limit allows for only 5 questions in every minute(5 questions/60 seconds). Incase you pass this limit kindly be patient, it represents after 5 minutes. Thank you.
+**Note:** Due to financial constraints, we are currently using the gemini free api hence we have api rate limits. The rate limit allows for only 5 questions in every minute(5 questions/60 seconds). Incase you pass this limit kindly be patient, it represents after 5 minutes. Thank you.
 
 For a non-rate limited version of the same, kindly run [this notebook](Notebooks/kyalo.ipynb) notebook inside the notebooks folder.
 ___________________________________________
