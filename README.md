@@ -1,4 +1,8 @@
 # **SheriaLens: Clarity in a world of Fine Print**
+
+Glance of the chatbot:
+https://huggingface.co/spaces/BC-254/SheriaLens2
+**Note:** Do to financial restraint we are currently using the gemini free api hence we have api rate limits. The rate limit allows for only 5 questions in every minute(5 questions/60 seconds). Incase you pass this limit kindly be patient, it represents after 5 minutes. Thank you.
 ___________________________________________
 
 ## **Overview**
